@@ -1,8 +1,8 @@
 # DEFINE ALL YOUR VARIABLES HERE
 
 instance_type = "g4dn.xlarge"
-ami           = "ami-0dee22c13ea7a9a67"   # Ubuntu 24.04
-key_name      = "serverkey"                     # Replace with your key-name without .pem extension
+ami           = "ami-0866a3c8686eaeeba"   # Ubuntu 24.04
+key_name      = "modelkey"                     # Replace with your key-name without .pem extension
 volume_size   = 20
 region_name   = "us-east-1"
 server_name   = "AI model-SERVER"
