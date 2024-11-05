@@ -13,8 +13,8 @@ provider "aws" {
 
 # STEP 1: CREATE SECURITY GROUP
 resource "aws_security_group" "my-sg" {
-  name        = "JENKINS-SERVER-SG"
-  description = "Jenkins Server Ports"
+  name        = "AI-SERVER-SG"
+  description = "AI Server Ports"
 
   # Port 22 for SSH Access
   ingress {
