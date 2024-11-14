@@ -1,6 +1,6 @@
 # DEFINE ALL YOUR VARIABLES HERE
 
-instance_type = "g4dn.xlarge"
+instance_type = "t2.medium"
 ami           = "ami-0dee22c13ea7a9a67"   # Ubuntu 24.04
 key_name      = "gpukey"                     # Replace with your key-name without .pem extension
 volume_size   = 20
